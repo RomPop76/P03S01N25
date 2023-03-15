@@ -1,7 +1,7 @@
 // TABLICA - METODY
 
 const italianUsers = ["Giovanni", "Michele", "Angelo", "Luigi", "Valentina", "Marco"];
-console.log(italianUsers);
+// console.log(italianUsers);
 
 
 
@@ -35,7 +35,7 @@ console.log(italianUsers);
 // SHIFT - Usuń pierwszy element
 // Usunięcie wartości i indeksu (nie tylko wartości)
 
-italianUsers.shift();
+// italianUsers.shift();
 // italianUsers.shift();
 // console.log(italianUsers);
 // delete italianUsers[0] //zmiana wartości pierwszego na udenfined
@@ -46,8 +46,8 @@ italianUsers.shift();
 
 // const removedFirstElement = italianUsers.shift(); //metoda zwraca element (pierwszy element tablicy), który został usunięty.
 
-// const lengthArrayAfterPush = italianUsers.push("Vito"); //metoda zwraca długoś tablicy jaką ma tablica po jej wykonaniu
-// const lengthArrayAfterUnshift = italianUsers.unshift("Apollonia"); //też zwraca długoś po dodaniu
+const lengthArrayAfterPush = italianUsers.push("Vito"); //metoda zwraca długoś tablicy jaką ma tablica po jej wykonaniu
+const lengthArrayAfterUnshift = italianUsers.unshift("Apollonia"); //też zwraca długoś po dodaniu
 
 
 /* ------------------------------------ */
