@@ -79,7 +79,7 @@ items.slice(2, 3);
 // a tak jak poniżej mozemy pobrać całą tablicę
 // items.slice(0, items.length);
 // lub
-// const newItems = items.slice(0);
+// const newItems = items.slice(0                                  );
 
 // Jeśli użyjemy minusa to mówimy ile od końca mamy zwrócić, w przykłądzie poniżej będzie tylko ostatni element
 items.slice(-1);
